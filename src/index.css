@@ -1,0 +1,890 @@
+/* Screen layout */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  color: #111;
+  background: #e8eaf0;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.35;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #1a3d7a;
+}
+
+.app-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.75rem 1rem;
+  padding: 0.75rem 1rem;
+  background: #1f2a3d;
+  color: #f4f6fb;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.app-toolbar__title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 12rem;
+}
+
+.app-toolbar__hint {
+  font-size: 0.8rem;
+  opacity: 0.85;
+  font-weight: 400;
+}
+
+.app-toolbar__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.5rem;
+}
+
+.app-toolbar button {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: #2d3e56;
+  color: inherit;
+  border-radius: 4px;
+  padding: 0.35rem 0.65rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.app-toolbar button:hover {
+  background: #3a4d69;
+}
+
+.app-toolbar button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.app-toolbar__danger {
+  border-color: #c45c5c !important;
+  background: #4a2a2a !important;
+}
+
+.app-toolbar__warn {
+  font-size: 0.8rem;
+  color: #ffdf90;
+  margin-right: 0.5rem;
+}
+
+.app-toolbar__autosave {
+  font-size: 0.75rem;
+  opacity: 0.85;
+  margin-left: 0.25rem;
+}
+
+.app-main {
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 1rem 0.5rem 2rem;
+}
+
+.app-foot {
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+/*
+  WH-347 print design reference (see repo `WH-347 Certified Payroll Form.pdf`):
+  - Page: 612 x 792 pt (Letter). Typical printable body ~6.5in wide at 0.5in side margins.
+  - Body typography: Times New Roman; ~8 pt header strip; ~6.5–7 pt dense payroll grid.
+  - Column proportions: identity + class ~30%; seven day columns ~27%; wage/fringe/gross ~24%; deductions + net ~19%.
+*/
+
+.wh-page {
+  --wh-font: "Times New Roman", Times, serif;
+  --wh-letter-w: 8.5in;
+  --wh-border: 1px solid #000;
+  --wh-fs-optional: 8pt;
+  --wh-fs-burden: 7.5pt;
+  --wh-fs-checks: 8pt;
+  --wh-fs-revomb: 8pt;
+  --wh-fs-dol-agency: 9pt;
+  --wh-fs-dol-title: 11pt;
+  --wh-fs-field-label: 7.5pt;
+  --wh-fs-field-input: 9pt;
+  --wh-fs-table: 6.75pt;
+  --wh-fs-table-header: 6.35pt;
+  --wh-fs-table-micro: 6pt;
+  --wh-page-pad-screen: 0.4in 0.48in 0.48in;
+  --wh-page-pad-print: 0;
+
+  font-family: var(--wh-font);
+  background: #fff;
+  color: #000;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  max-width: var(--wh-letter-w);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  padding: var(--wh-page-pad-screen);
+  font-size: 8.5pt;
+}
+
+.wh-page *,
+.wh-page *::before,
+.wh-page *::after {
+  box-sizing: border-box;
+}
+
+.wh-page--p2 {
+  font-size: 9pt;
+  --wh-fs-compliance: 9pt;
+  --wh-fs-p2-field: 9pt;
+  --wh-fs-fringe-meta: 7.5pt;
+  --wh-fs-fringe-grid: 7pt;
+}
+
+.wh-optional {
+  font-size: var(--wh-fs-optional);
+  margin: 0 0 0.2rem;
+  line-height: 1.25;
+}
+
+.wh-small {
+  font-size: var(--wh-fs-burden);
+  margin: 0 0 0.45rem;
+  line-height: 1.28;
+}
+
+.wh-topgrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 0.4rem;
+}
+
+.wh-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.wh-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+  font-size: var(--wh-fs-checks);
+  line-height: 1.2;
+  max-width: 22rem;
+}
+
+.wh-check input {
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.wh-revomb {
+  text-align: right;
+  font-size: var(--wh-fs-revomb);
+  line-height: 1.35;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.wh-dolhead {
+  text-align: center;
+  margin: 0.15rem 0 0.45rem;
+}
+
+.wh-dolhead__dept {
+  font-size: var(--wh-fs-dol-agency);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.wh-dolhead__div {
+  font-size: var(--wh-fs-dol-agency);
+  font-weight: 700;
+  margin-top: 0.1rem;
+}
+
+.wh-dolhead__title {
+  margin: 0.2rem 0 0;
+  font-size: var(--wh-fs-dol-title);
+  font-weight: 700;
+  text-transform: none;
+  line-height: 1.15;
+  padding: 0 0.25rem;
+}
+
+.wh-field {
+  border: var(--wh-border);
+  margin-bottom: 0.1in;
+  display: flex;
+  flex-direction: column;
+}
+
+.wh-field label {
+  font-size: var(--wh-fs-field-label);
+  font-weight: 700;
+  padding: 0.06rem 0.22rem 0;
+  line-height: 1.15;
+}
+
+.wh-field input,
+.wh-field textarea {
+  border: none;
+  margin: 0;
+  padding: 0.1rem 0.22rem 0.14rem;
+  font-family: inherit;
+  font-size: var(--wh-fs-field-input);
+  width: 100%;
+  background: transparent;
+}
+
+.wh-field--full {
+  width: 100%;
+}
+
+.wh-fieldgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 0.28rem;
+}
+
+.wh-paywrap {
+  overflow-x: auto;
+  margin-top: 0.2rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.wh-paytable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: var(--wh-fs-table);
+}
+
+.wh-paytable th,
+.wh-paytable td {
+  border: var(--wh-border);
+  vertical-align: top;
+  padding: 0 1px;
+}
+
+.wh-paytable input,
+.wh-paytable select {
+  width: 100%;
+  border: none;
+  font: inherit;
+  background: transparent;
+  padding: 0 1px;
+  margin: 0;
+  min-height: 0;
+}
+
+.wh-paytable select {
+  font-size: var(--wh-fs-table);
+}
+
+.wh-numrow-tags th {
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.12;
+  padding: 3px 2px;
+  font-size: 6pt;
+}
+
+.wh-paytable thead .wh-th-tag {
+  white-space: nowrap;
+}
+
+.wh-numrow th {
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.12;
+  padding: 2px 1px;
+  font-size: var(--wh-fs-table-header);
+}
+
+/* (1A)–(2): vertical headers — narrow columns, text runs along the column */
+.wh-paytable thead .wh-numrow .wh-th-v {
+  vertical-align: middle;
+  text-align: center;
+  padding: 6px 2px;
+  line-height: 1;
+}
+
+.wh-paytable thead .wh-th-vinner {
+  display: inline-block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 6.15pt;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.02em;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  hyphens: none;
+  /* Wrap after ~24 characters along the vertical inline axis */
+  max-inline-size: 24ch;
+  min-inline-size: 0;
+  /* Fallback where logical sizing is flaky with vertical writing modes */
+  max-height: 24ch;
+}
+
+/* (1A)–(3): identity/class — wrap vertical text after ~24 characters */
+.wh-paytable thead .wh-numrow .wh-c-1a .wh-th-vinner,
+.wh-paytable thead .wh-numrow .wh-c-1b .wh-th-vinner,
+.wh-paytable thead .wh-numrow .wh-c-1c .wh-th-vinner,
+.wh-paytable thead .wh-numrow .wh-c-1d .wh-th-vinner,
+.wh-paytable thead .wh-numrow .wh-c-1e .wh-th-vinner,
+.wh-paytable thead .wh-numrow .wh-c-2 .wh-th-vinner,
+.wh-paytable thead .wh-numrow .wh-c-3 .wh-th-vinner {
+  max-inline-size: 24ch;
+  min-inline-size: 0;
+  max-height: 24ch;
+  overflow: visible;
+}
+
+.wh-paytable thead .wh-numrow .wh-c-1a.wh-th-v,
+.wh-paytable thead .wh-numrow .wh-c-1b.wh-th-v,
+.wh-paytable thead .wh-numrow .wh-c-1c.wh-th-v,
+.wh-paytable thead .wh-numrow .wh-c-1d.wh-th-v,
+.wh-paytable thead .wh-numrow .wh-c-1e.wh-th-v,
+.wh-paytable thead .wh-numrow .wh-c-2.wh-th-v,
+.wh-paytable thead .wh-numrow .wh-c-3.wh-th-v {
+  overflow: visible;
+}
+
+.wh-paytable thead .wh-c-2 .wh-th-vinner {
+  font-size: 5.5pt;
+  line-height: 1.35;
+}
+
+/* Tightest cols: slightly smaller type */
+.wh-paytable thead .wh-numrow .wh-c-1a .wh-th-vinner,
+.wh-paytable thead .wh-numrow .wh-c-1d .wh-th-vinner {
+  font-size: 5.7pt;
+  line-height: 1.18;
+}
+
+.wh-paytable thead .wh-c-6a .wh-th-vinner,
+.wh-paytable thead .wh-c-6c .wh-th-vinner {
+  font-size: 5.4pt;
+  line-height: 1.2;
+}
+
+.wh-stot {
+  font-weight: 400;
+  font-size: var(--wh-fs-table-micro);
+  margin-top: 2px;
+}
+
+.wh-paytable thead .wh-numrow .wh-c-8.wh-th-h {
+  font-size: var(--wh-fs-table-header);
+  font-weight: 700;
+  line-height: 1.12;
+  text-align: center;
+  vertical-align: top;
+  padding: 4px 2px 5px;
+}
+
+.wh-ded-head {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  width: 100%;
+  min-width: 0;
+  overflow: visible;
+}
+
+.wh-ded-head__title {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.12;
+  padding: 2px 4px 4px;
+  border-bottom: var(--wh-border);
+}
+
+.wh-ded-head__cols {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  width: 100%;
+  min-width: 0;
+  overflow: visible;
+}
+
+.wh-ded-head__cols .wh-ded-col {
+  min-width: 0;
+  border-left: var(--wh-border);
+  padding: 6px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  overflow: visible;
+}
+
+.wh-ded-head__cols .wh-ded-col:first-child {
+  border-left: none;
+}
+
+.wh-paytable thead .wh-ded-head .wh-th-vinner {
+  font-size: 5.25pt;
+  letter-spacing: 0;
+  line-height: 1.18;
+  /* Wider/narrower than other vertical headers — avoid global ch caps clipping labels */
+  max-height: none;
+  max-inline-size: none;
+  overflow: visible;
+}
+
+.wh-hours-head {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.wh-hours-head__title {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.12;
+  padding: 2px 4px 4px;
+  border-bottom: var(--wh-border);
+}
+
+.wh-hours-head__days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.wh-hours-head__days .wh-dayhead {
+  min-width: 0;
+  border-left: var(--wh-border);
+  padding: 2px 1px;
+}
+
+.wh-hours-head__days .wh-dayhead:first-child {
+  border-left: none;
+}
+
+/* Horizontal rule between (TOP) DAY and (BOTTOM) DATE in each day column */
+.wh-hours-head__days .wh-dayhead .wh-dayhead__row:first-child {
+  border-bottom: var(--wh-border);
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+
+.wh-paytable thead .wh-numrow .wh-c-4 {
+  vertical-align: top;
+  padding: 4px 2px 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: var(--wh-fs-table-header);
+}
+
+.wh-mute {
+  font-size: var(--wh-fs-table-micro);
+  color: #222;
+  display: block;
+}
+
+.wh-dayhead {
+  min-width: 0;
+}
+
+.wh-dayabbr {
+  display: block;
+  text-align: center;
+  font-size: var(--wh-fs-table);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.wh-daydate {
+  width: 100%;
+  text-align: center;
+  font-size: var(--wh-fs-table);
+}
+
+.wh-daydate--from-week-ending {
+  display: block;
+  min-height: 0.95rem;
+  font-weight: 600;
+}
+
+.wh-dayhead__row {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.wh-worker td {
+  min-height: 2rem;
+  height: auto;
+}
+
+.wh-entryno {
+  display: block;
+  text-align: center;
+  font-size: 7.25pt;
+  padding-top: 0.12rem;
+}
+
+.wh-daycell {
+  padding: 0 !important;
+}
+
+.wh-stotcell {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.wh-hr {
+  min-height: 0.95rem;
+  text-align: center;
+  font-size: var(--wh-fs-table);
+}
+
+.wh-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.wh-stack input {
+  min-height: 0.95rem;
+  font-size: var(--wh-fs-table);
+}
+
+.wh-ra-detail {
+  font-size: var(--wh-fs-table-micro);
+  margin-top: 2px;
+}
+
+.wh-sum {
+  display: block;
+  width: 100%;
+  margin-top: 2px;
+  font-size: 6.5pt;
+  padding: 0.1rem;
+}
+
+.wh-continuation {
+  page-break-inside: avoid;
+  margin-top: 0.45rem;
+}
+
+.wh-continuation__banner {
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 0.35rem;
+  font-size: 9pt;
+  letter-spacing: 0.02em;
+}
+
+.wh-p2h2 {
+  margin: 0 0 0.45rem;
+  font-size: 10.5pt;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.wh-compliance {
+  margin-top: 0.3rem;
+}
+
+.wh-comp-p {
+  margin: 0.2rem 0 0.3rem;
+  font-size: var(--wh-fs-compliance, 9pt);
+}
+
+.wh-comp-item {
+  display: flex;
+  gap: 0.4rem;
+  align-items: flex-start;
+  margin: 0.3rem 0;
+  font-size: var(--wh-fs-compliance, 9pt);
+  line-height: 1.35;
+}
+
+.wh-comp-item > input[type="checkbox"] {
+  flex: 0 0 0.9rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-top: 0.12rem;
+}
+
+.wh-appr {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+  margin: 0.3rem 0 0.45rem;
+  table-layout: fixed;
+}
+
+.wh-appr th,
+.wh-appr td {
+  border: var(--wh-border);
+  padding: 2px;
+  vertical-align: top;
+}
+
+.wh-appr th {
+  font-size: 7.5pt;
+}
+
+.wh-appr input {
+  width: 100%;
+  border: none;
+  font: inherit;
+  background: transparent;
+  font-size: 9pt;
+}
+
+.wh-appr-flags {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+  font-size: 8pt;
+}
+
+.wh-fringe-h3 {
+  margin: 0.45rem 0 0.2rem;
+  font-size: 10pt;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.wh-fringe-intro,
+.wh-page--p2 .wh-small {
+  font-size: 8.5pt;
+  line-height: 1.35;
+}
+
+.wh-fringe-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.3rem;
+  margin: 0.3rem 0;
+}
+
+@media (max-width: 900px) {
+  .wh-fringe-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.wh-page--p2 .wh-field label {
+  font-size: 8pt;
+}
+
+.wh-page--p2 .wh-field input,
+.wh-page--p2 .wh-field textarea {
+  font-size: var(--wh-fs-p2-field, 9pt);
+}
+
+.wh-fringe-plan {
+  border: var(--wh-border);
+  padding: 0.22rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+
+.wh-fr-plan-label {
+  font-size: var(--wh-fs-fringe-meta);
+  font-weight: 700;
+}
+
+.wh-fr-plan-fu {
+  display: flex;
+  gap: 0.65rem;
+  font-size: 8pt;
+}
+
+.wh-fringe-workers-wrap {
+  overflow-x: auto;
+  margin: 0.25rem 0 0.45rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.wh-fringe-workers {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--wh-fs-fringe-grid);
+  min-width: 100%;
+  table-layout: fixed;
+}
+
+.wh-fringe-workers th,
+.wh-fringe-workers td {
+  border: var(--wh-border);
+  padding: 1px 2px;
+  vertical-align: top;
+}
+
+.wh-fringe-workers th {
+  font-size: 6.75pt;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.wh-fringe-workers input {
+  width: 100%;
+  border: none;
+  font: inherit;
+  background: transparent;
+  font-size: var(--wh-fs-fringe-grid);
+  padding: 1px;
+}
+
+.wh-fw-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+
+.wh-fw-entry {
+  max-width: 3rem;
+}
+
+.wh-siggrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.wh-legal {
+  font-size: 7.5pt;
+  margin: 0.45rem 0 0.3rem;
+  line-height: 1.35;
+}
+
+.wh-footer-meta {
+  font-size: 7.5pt;
+  text-align: center;
+  margin: 0.3rem 0 0;
+}
+
+/* Print — match Letter PDF; avoid double margins ( @page + .wh-page padding ) */
+@page {
+  size: letter;
+  margin: 0.5in;
+}
+
+@media print {
+  :root {
+    background: #fff;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .app-main {
+    padding: 0;
+    max-width: none;
+  }
+
+  .wh-page {
+    --wh-page-pad-print: 0;
+    border: none;
+    margin: 0;
+    padding: var(--wh-page-pad-print);
+    max-width: none;
+    page-break-after: always;
+    box-shadow: none;
+  }
+
+  .wh-page:last-of-type {
+    page-break-after: auto;
+  }
+
+  .wh-paywrap,
+  .wh-fringe-workers-wrap {
+    overflow: visible !important;
+  }
+
+  .wh-paytable input,
+  .wh-paytable select,
+  .wh-paytable textarea,
+  .wh-field input,
+  .wh-field textarea,
+  .wh-appr input,
+  .wh-fringe-workers input {
+    box-shadow: none !important;
+    appearance: none;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .wh-paytable select {
+    background-image: none !important;
+  }
+
+  .wh-paytable thead .wh-th-vinner {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .wh-paytable thead .wh-th-tag {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .wh-worker {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .wh-numrow-tags th,
+  .wh-numrow th,
+  .wh-hours-head,
+  .wh-ded-head {
+    break-inside: avoid;
+  }
+
+  .wh-continuation {
+    page-break-before: always;
+  }
+
+  .wh-sum {
+    display: none !important;
+  }
+}
