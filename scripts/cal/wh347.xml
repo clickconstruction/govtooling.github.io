@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="26.04.0">
+<page number="1" position="absolute" top="0" left="0" height="918" width="1188">
+	<fontspec id="0" size="14" family="BJHCMG+Calibri" color="#000000"/>
+	<fontspec id="1" size="19" family="DUEOOC+Calibri" color="#000000"/>
+	<fontspec id="2" size="15" family="BJHCMG+Calibri" color="#000000"/>
+	<fontspec id="3" size="24" family="DUEOOC+Calibri" color="#000000"/>
+	<fontspec id="4" size="24" family="MKUQKK+Calibri" color="#000000"/>
+	<fontspec id="5" size="17" family="MKUQKK+Calibri" color="#000000"/>
+	<fontspec id="6" size="15" family="BJHCMG+Calibri" color="#0562c1"/>
+	<fontspec id="7" size="17" family="DUEOOC+Calibri" color="#000000"/>
+	<fontspec id="8" size="14" family="MKUQKK+Calibri" color="#000000"/>
+	<fontspec id="9" size="14" family="DUEOOC+Calibri" color="#000000"/>
+	<fontspec id="10" size="14" family="UETMSU+Calibri" color="#000000"/>
+	<fontspec id="11" size="14" family="QYQOOC+Calibri" color="#000000"/>
+	<fontspec id="12" size="14" family="IMPSGS+Calibri" color="#000000"/>
+	<fontspec id="13" size="14" family="FFGAQY+Webdings" color="#000000"/>
+	<fontspec id="14" size="12" family="BJHCMG+Calibri" color="#000000"/>
+	<fontspec id="15" size="12" family="BJHCMG+Calibri" color="#000000"/>
+	<fontspec id="16" size="14" family="BJHCMG+Calibri" color="#000000"/>
+	<fontspec id="17" size="10" family="BJHCMG+Calibri" color="#000000"/>
+	<fontspec id="18" size="10" family="BJHCMG+Calibri" color="#000000"/>
+	<fontspec id="19" size="12" family="DUEOOC+Calibri" color="#000000"/>
+	<fontspec id="20" size="12" family="MKUQKK+Calibri" color="#000000"/>
+	<fontspec id="21" size="12" family="DUEOOC+Calibri" color="#000000"/>
+	<fontspec id="22" size="12" family="MKUQKK+Calibri" color="#000000"/>
+	<fontspec id="23" size="10" family="NBGBYI+Calibri" color="#000000"/>
+<image top="47" left="983" width="141" height="66" src="scripts/cal/wh347-1_1.jpg"/>
+<text top="119" left="1008" width="101" height="18" font="0">Rev. January 2025 </text>
+<text top="136" left="1008" width="119" height="18" font="0">OMB No.: 1235-0008 </text>
+<text top="152" left="1008" width="114" height="18" font="0">Expires: 01/31/2028 </text>
+<text top="51" left="63" width="211" height="27" font="1"><b>U.S. Department of Labor </b></text>
+<text top="76" left="63" width="149" height="20" font="2">Wage and Hour Division </text>
+<text top="45" left="297" width="379" height="33" font="3"><b>Davis-Bacon and Related Acts Weekly </b></text>
+<text top="45" left="675" width="216" height="33" font="4"><b>Certiﬁed Payroll Form</b></text>
+<text top="45" left="891" width="5" height="33" font="3"><b> </b></text>
+<text top="77" left="291" width="346" height="23" font="5"><b>(For Contractor’s Optional Use; See Instructions a<a href="http://www.dol.gov/whd/forms/wh347instr.htm">t </a></b></text>
+<text top="79" left="637" width="255" height="20" font="6"><a href="http://www.dol.gov/whd/forms/wh347instr.htm">www.dol.gov/whd/forms/wh347instr.htm</a></text>
+<text top="77" left="892" width="13" height="23" font="7"><a href="http://www.dol.gov/whd/forms/wh347instr.htm"><b>)</b></a><b>  </b></text>
+<text top="99" left="341" width="383" height="19" font="8"><b>Unless otherwise noted, the information requested is speciﬁc to the </b></text>
+<text top="99" left="724" width="122" height="19" font="9"><b>named project below.</b></text>
+<text top="99" left="847" width="3" height="18" font="10"><i><b> </b></i></text>
+<text top="116" left="258" width="673" height="18" font="11"><i>Persons are not required to respond to the collection of information unless it displays a currently valid OMB control number.</i></text>
+<text top="116" left="930" width="3" height="18" font="12"><i> </i></text>
+<text top="133" left="594" width="3" height="18" font="12"><i> </i></text>
+<text top="152" left="61" width="14" height="14" font="13"></text>
+<text top="149" left="74" width="315" height="18" font="0">  SUBMISSION OF FINAL DBRA CERTIFIED PAYROLL FORM  </text>
+<text top="149" left="432" width="3" height="18" font="0"> </text>
+<text top="149" left="486" width="3" height="18" font="0"> </text>
+<text top="149" left="540" width="3" height="18" font="0"> </text>
+<text top="149" left="594" width="3" height="18" font="0"> </text>
+<text top="152" left="648" width="14" height="14" font="13"></text>
+<text top="149" left="661" width="152" height="18" font="0"> PRIME CONTRACTOR         </text>
+<text top="152" left="864" width="14" height="14" font="13"></text>
+<text top="149" left="877" width="104" height="18" font="0"> SUBCONTRACTOR </text>
+<text top="181" left="70" width="88" height="18" font="0">PROJECT NAME </text>
+<text top="181" left="302" width="183" height="18" font="0">PROJECT NO. or CONTRACT NO.   </text>
+<text top="181" left="520" width="482" height="18" font="0">CERTIFIED PAYROLL NO.  PRIME CONTRACTOR’S/SUBCONTRACTOR’S BUSINESS NAME </text>
+<text top="198" left="70" width="3" height="18" font="0"> </text>
+<text top="198" left="302" width="3" height="18" font="0"> </text>
+<text top="198" left="520" width="3" height="18" font="0"> </text>
+<text top="198" left="667" width="3" height="18" font="0"> </text>
+<text top="228" left="70" width="110" height="18" font="0">PROJECT LOCATION </text>
+<text top="228" left="302" width="158" height="18" font="0">WAGE DETERMINATION NO. </text>
+<text top="228" left="520" width="114" height="18" font="0">WEEK ENDING DATE </text>
+<text top="228" left="667" width="351" height="18" font="0">PRIME CONTRACTOR’S/SUBCONTRACTOR’S BUSINESS ADDRESS </text>
+<text top="245" left="70" width="3" height="18" font="0"> </text>
+<text top="245" left="302" width="3" height="18" font="0"> </text>
+<text top="245" left="520" width="3" height="18" font="0"> </text>
+<text top="245" left="667" width="3" height="18" font="0"> </text>
+<text top="277" left="70" width="23" height="16" font="14">(1A) </text>
+<text top="277" left="126" width="23" height="16" font="14">(1B) </text>
+<text top="277" left="201" width="23" height="16" font="14">(1C) </text>
+<text top="277" left="257" width="23" height="16" font="14">(1D) </text>
+<text top="277" left="300" width="22" height="16" font="14">(1E) </text>
+<text top="277" left="352" width="16" height="16" font="14">(2) </text>
+<text top="277" left="411" width="16" height="16" font="14">(3) </text>
+<text top="277" left="460" width="3" height="16" font="14"> </text>
+<text top="277" left="550" width="16" height="16" font="14">(4) </text>
+<text top="277" left="659" width="16" height="16" font="14">(5) </text>
+<text top="277" left="695" width="3" height="16" font="14"> </text>
+<text top="277" left="716" width="23" height="16" font="14">(6A) </text>
+<text top="277" left="757" width="23" height="16" font="14">(6B) </text>
+<text top="277" left="797" width="23" height="16" font="14">(6C) </text>
+<text top="277" left="836" width="23" height="16" font="14">(7A) </text>
+<text top="277" left="876" width="23" height="16" font="14">(7B) </text>
+<text top="277" left="981" width="16" height="16" font="14">(8) </text>
+<text top="277" left="1092" width="16" height="16" font="14">(9) </text>
+<text top="400" left="84" width="0" height="16" font="15">W</text>
+<text top="390" left="84" width="0" height="16" font="15">ORK</text>
+<text top="369" left="84" width="0" height="16" font="15">ER </text>
+<text top="354" left="84" width="0" height="16" font="15">EN</text>
+<text top="340" left="84" width="0" height="16" font="15">TR</text>
+<text top="328" left="84" width="0" height="16" font="15">Y N</text>
+<text top="312" left="84" width="0" height="16" font="15">O.</text>
+<text top="301" left="84" width="0" height="16" font="15"> </text>
+<text top="400" left="140" width="0" height="16" font="15">WO</text>
+<text top="382" left="140" width="0" height="16" font="15">RK</text>
+<text top="369" left="140" width="0" height="16" font="15">ER</text>
+<text top="357" left="140" width="0" height="16" font="15"> LA</text>
+<text top="342" left="140" width="0" height="16" font="15">ST</text>
+<text top="331" left="140" width="0" height="16" font="15"> N</text>
+<text top="320" left="140" width="0" height="16" font="15">AM</text>
+<text top="303" left="140" width="0" height="16" font="15">E</text>
+<text top="296" left="140" width="0" height="18" font="16"> </text>
+<text top="400" left="208" width="0" height="16" font="15">WO</text>
+<text top="382" left="208" width="0" height="16" font="15">RK</text>
+<text top="369" left="208" width="0" height="16" font="15">ER</text>
+<text top="357" left="208" width="0" height="16" font="15"> F</text>
+<text top="348" left="208" width="0" height="16" font="15">IRS</text>
+<text top="334" left="208" width="0" height="16" font="15">T </text>
+<text top="400" left="223" width="0" height="16" font="15">NA</text>
+<text top="386" left="223" width="0" height="16" font="15">ME</text>
+<text top="370" left="223" width="0" height="16" font="15"> </text>
+<text top="400" left="266" width="0" height="16" font="15">WO</text>
+<text top="382" left="266" width="0" height="16" font="15">RK</text>
+<text top="369" left="266" width="0" height="16" font="15">ER</text>
+<text top="357" left="266" width="0" height="16" font="15"> M</text>
+<text top="344" left="266" width="0" height="16" font="15">IDDL</text>
+<text top="321" left="266" width="0" height="16" font="15">E </text>
+<text top="400" left="281" width="0" height="16" font="15">IN</text>
+<text top="390" left="281" width="0" height="16" font="15">IT</text>
+<text top="381" left="281" width="0" height="16" font="15">IA</text>
+<text top="371" left="281" width="0" height="16" font="15">L </text>
+<text top="400" left="306" width="0" height="16" font="15">W</text>
+<text top="390" left="306" width="0" height="16" font="15">ORK</text>
+<text top="369" left="306" width="0" height="16" font="15">ER </text>
+<text top="400" left="321" width="0" height="16" font="15">ID</text>
+<text top="390" left="321" width="0" height="16" font="15">ENT</text>
+<text top="370" left="321" width="0" height="16" font="15">IF</text>
+<text top="362" left="321" width="0" height="16" font="15">YI</text>
+<text top="353" left="321" width="0" height="16" font="15">NG NO</text>
+<text top="319" left="321" width="0" height="16" font="15">. </text>
+<text top="400" left="350" width="0" height="16" font="15">(J) J</text>
+<text top="383" left="350" width="0" height="16" font="15">OU</text>
+<text top="367" left="350" width="0" height="16" font="15">RN</text>
+<text top="353" left="350" width="0" height="16" font="15">EY</text>
+<text top="341" left="350" width="0" height="16" font="15">WO</text>
+<text top="323" left="350" width="0" height="16" font="15">RK</text>
+<text top="310" left="350" width="0" height="16" font="15">ER</text>
+<text top="297" left="350" width="0" height="16" font="15"> </text>
+<text top="400" left="365" width="0" height="16" font="15">(R</text>
+<text top="390" left="365" width="0" height="16" font="15">A) </text>
+<text top="377" left="365" width="0" height="16" font="15">RE</text>
+<text top="365" left="365" width="0" height="16" font="15">GI</text>
+<text top="354" left="365" width="0" height="16" font="15">ST</text>
+<text top="343" left="365" width="0" height="16" font="15">ERD</text>
+<text top="323" left="365" width="0" height="16" font="15"> </text>
+<text top="400" left="380" width="0" height="16" font="15">AP</text>
+<text top="387" left="380" width="0" height="16" font="15">PR</text>
+<text top="374" left="380" width="0" height="16" font="15">EN</text>
+<text top="361" left="380" width="0" height="16" font="15">TI</text>
+<text top="352" left="380" width="0" height="16" font="15">CE</text>
+<text top="340" left="380" width="0" height="16" font="15"> </text>
+<text top="399" left="397" width="0" height="18" font="16"> </text>
+<text top="400" left="414" width="0" height="16" font="15">LA</text>
+<text top="388" left="414" width="0" height="16" font="15">BO</text>
+<text top="374" left="414" width="0" height="16" font="15">R </text>
+<text top="400" left="429" width="0" height="16" font="15">CL</text>
+<text top="389" left="429" width="0" height="16" font="15">AS</text>
+<text top="376" left="429" width="0" height="16" font="15">SI</text>
+<text top="368" left="429" width="0" height="16" font="15">FI</text>
+<text top="359" left="429" width="0" height="16" font="15">CA</text>
+<text top="347" left="429" width="0" height="16" font="15">TI</text>
+<text top="338" left="429" width="0" height="16" font="15">ON</text>
+<text top="322" left="429" width="0" height="16" font="15"> </text>
+<text top="311" left="471" width="0" height="18" font="16"> </text>
+<text top="400" left="487" width="0" height="16" font="15">ST</text>
+<text top="389" left="487" width="0" height="16" font="15"> =</text>
+<text top="380" left="487" width="0" height="16" font="15"> S</text>
+<text top="372" left="487" width="0" height="16" font="15">TR</text>
+<text top="360" left="487" width="0" height="16" font="15">AI</text>
+<text top="350" left="487" width="0" height="16" font="15">GH</text>
+<text top="335" left="487" width="0" height="16" font="15">T TI</text>
+<text top="317" left="487" width="0" height="16" font="15">M</text>
+<text top="307" left="487" width="0" height="16" font="15">E </text>
+<text top="400" left="502" width="0" height="16" font="15">OT</text>
+<text top="387" left="502" width="0" height="16" font="15"> =</text>
+<text top="378" left="502" width="0" height="16" font="15"> OV</text>
+<text top="361" left="502" width="0" height="16" font="15">ER</text>
+<text top="349" left="502" width="0" height="16" font="15">TI</text>
+<text top="340" left="502" width="0" height="16" font="15">M</text>
+<text top="329" left="502" width="0" height="16" font="15">E</text>
+<text top="325" left="502" width="0" height="14" font="17"> </text>
+<text top="306" left="519" width="121" height="14" font="18">(TOP) DAYS OF WORK WEEK </text>
+<text top="316" left="540" width="3" height="18" font="0"> </text>
+<text top="319" left="543" width="76" height="14" font="18">(BOTTOM) DATES </text>
+<text top="400" left="663" width="0" height="16" font="15">TO</text>
+<text top="387" left="663" width="0" height="16" font="15">TA</text>
+<text top="375" left="663" width="0" height="16" font="15">L HO</text>
+<text top="352" left="663" width="0" height="16" font="15">UR</text>
+<text top="338" left="663" width="0" height="16" font="15">S </text>
+<text top="400" left="679" width="0" height="16" font="15">WO</text>
+<text top="382" left="679" width="0" height="16" font="15">RK</text>
+<text top="369" left="679" width="0" height="16" font="15">ED</text>
+<text top="356" left="679" width="0" height="16" font="15"> F</text>
+<text top="348" left="679" width="0" height="16" font="15">OR</text>
+<text top="333" left="679" width="0" height="16" font="15"> W</text>
+<text top="320" left="679" width="0" height="16" font="15">EE</text>
+<text top="308" left="679" width="0" height="16" font="15">K </text>
+<text top="312" left="704" width="0" height="16" font="15"> </text>
+<text top="400" left="722" width="0" height="16" font="15">HO</text>
+<text top="385" left="722" width="0" height="16" font="15">UR</text>
+<text top="371" left="722" width="0" height="16" font="15">LY</text>
+<text top="361" left="722" width="0" height="16" font="15"> W</text>
+<text top="348" left="722" width="0" height="16" font="15">AG</text>
+<text top="333" left="722" width="0" height="16" font="15">E </text>
+<text top="325" left="722" width="0" height="16" font="15">RA</text>
+<text top="312" left="722" width="0" height="16" font="15">TE </text>
+<text top="400" left="737" width="0" height="16" font="15">PA</text>
+<text top="388" left="737" width="0" height="16" font="15">ID</text>
+<text top="378" left="737" width="0" height="16" font="15"> F</text>
+<text top="369" left="737" width="0" height="16" font="15">OR</text>
+<text top="355" left="737" width="0" height="16" font="15"> S</text>
+<text top="347" left="737" width="0" height="16" font="15">T A</text>
+<text top="331" left="737" width="0" height="16" font="15">ND</text>
+<text top="316" left="737" width="0" height="16" font="15"> O</text>
+<text top="306" left="737" width="0" height="16" font="15">T </text>
+<text top="400" left="765" width="0" height="16" font="15">TO</text>
+<text top="387" left="765" width="0" height="16" font="15">TA</text>
+<text top="375" left="765" width="0" height="16" font="15">L FR</text>
+<text top="355" left="765" width="0" height="16" font="15">IN</text>
+<text top="345" left="765" width="0" height="16" font="15">GE</text>
+<text top="331" left="765" width="0" height="16" font="15"> </text>
+<text top="400" left="780" width="0" height="16" font="15">BEN</text>
+<text top="380" left="780" width="0" height="16" font="15">EFI</text>
+<text top="366" left="780" width="0" height="16" font="15">T </text>
+<text top="357" left="780" width="0" height="16" font="15">CR</text>
+<text top="344" left="780" width="0" height="16" font="15">ED</text>
+<text top="331" left="780" width="0" height="16" font="15">IT</text>
+<text top="322" left="780" width="0" height="16" font="15"> </text>
+<text top="400" left="805" width="0" height="16" font="15">PA</text>
+<text top="389" left="805" width="0" height="16" font="15">YM</text>
+<text top="373" left="805" width="0" height="16" font="15">EN</text>
+<text top="359" left="805" width="0" height="16" font="15">T </text>
+<text top="351" left="805" width="0" height="16" font="15">IN</text>
+<text top="340" left="805" width="0" height="16" font="15"> LIE</text>
+<text top="323" left="805" width="0" height="16" font="15">U O</text>
+<text top="305" left="805" width="0" height="16" font="15">F </text>
+<text top="400" left="820" width="0" height="16" font="15">FR</text>
+<text top="388" left="820" width="0" height="16" font="15">INGE</text>
+<text top="364" left="820" width="0" height="16" font="15"> B</text>
+<text top="355" left="820" width="0" height="16" font="15">ENE</text>
+<text top="335" left="820" width="0" height="16" font="15">FI</text>
+<text top="327" left="820" width="0" height="16" font="15">TS</text>
+<text top="316" left="820" width="0" height="16" font="15"> </text>
+<text top="400" left="850" width="0" height="16" font="15">GR</text>
+<text top="386" left="850" width="0" height="16" font="15">OSS A</text>
+<text top="358" left="850" width="0" height="16" font="15">M</text>
+<text top="347" left="850" width="0" height="16" font="15">T E</text>
+<text top="333" left="850" width="0" height="16" font="15">AR</text>
+<text top="320" left="850" width="0" height="16" font="15">NED</text>
+<text top="299" left="850" width="0" height="16" font="15"> </text>
+<text top="294" left="850" width="0" height="18" font="16"> </text>
+<text top="400" left="884" width="0" height="16" font="15">GR</text>
+<text top="386" left="884" width="0" height="16" font="15">OS</text>
+<text top="373" left="884" width="0" height="16" font="15">S A</text>
+<text top="358" left="884" width="0" height="16" font="15">MT</text>
+<text top="342" left="884" width="0" height="16" font="15"> E</text>
+<text top="333" left="884" width="0" height="16" font="15">AR</text>
+<text top="320" left="884" width="0" height="16" font="15">NE</text>
+<text top="306" left="884" width="0" height="16" font="15">D </text>
+<text top="400" left="899" width="0" height="16" font="15">FO</text>
+<text top="387" left="899" width="0" height="16" font="15">R </text>
+<text top="378" left="899" width="0" height="17" font="19"><b>ALL</b></text>
+<text top="360" left="899" width="0" height="17" font="19"><b> </b></text>
+<text top="358" left="899" width="0" height="17" font="20"><b>WO</b></text>
+<text top="339" left="899" width="0" height="17" font="20"><b>RK</b></text>
+<text top="324" left="899" width="0" height="18" font="16"> </text>
+<text top="308" left="917" width="90" height="16" font="14">DEDUCTIONS FOR </text>
+<text top="308" left="1007" width="20" height="17" font="21"><b>ALL </b></text>
+<text top="308" left="1027" width="32" height="17" font="22"><b>WORK</b></text>
+<text top="308" left="1059" width="3" height="16" font="14"> </text>
+<text top="400" left="1095" width="0" height="16" font="15">NE</text>
+<text top="387" left="1095" width="0" height="16" font="15">T </text>
+<text top="378" left="1095" width="0" height="16" font="15">PA</text>
+<text top="367" left="1095" width="0" height="16" font="15">Y </text>
+<text top="358" left="1095" width="0" height="16" font="15">TO W</text>
+<text top="331" left="1095" width="0" height="16" font="15">OR</text>
+<text top="317" left="1095" width="0" height="16" font="15">KE</text>
+<text top="305" left="1095" width="0" height="16" font="15">R </text>
+<text top="400" left="1110" width="0" height="16" font="15">FO</text>
+<text top="387" left="1110" width="0" height="16" font="15">R</text>
+<text top="380" left="1110" width="0" height="17" font="19"><b> A</b></text>
+<text top="370" left="1110" width="0" height="17" font="19"><b>LL </b></text>
+<text top="358" left="1110" width="0" height="17" font="20"><b>WO</b></text>
+<text top="339" left="1110" width="0" height="17" font="20"><b>RK</b></text>
+<text top="325" left="1110" width="0" height="17" font="19"><b> </b></text>
+<text top="323" left="1110" width="0" height="16" font="15"> </text>
+<text top="333" left="457" width="3" height="18" font="0"> </text>
+<text top="340" left="532" width="0" height="18" font="16"> </text>
+<text top="340" left="553" width="0" height="18" font="16"> </text>
+<text top="340" left="571" width="0" height="18" font="16"> </text>
+<text top="340" left="590" width="0" height="18" font="16"> </text>
+<text top="340" left="608" width="0" height="18" font="16"> </text>
+<text top="340" left="627" width="0" height="18" font="16"> </text>
+<text top="340" left="645" width="0" height="18" font="16"> </text>
+<text top="333" left="692" width="3" height="16" font="14"> </text>
+<text top="400" left="925" width="0" height="16" font="15">TA</text>
+<text top="388" left="925" width="0" height="16" font="15">X W</text>
+<text top="369" left="925" width="0" height="16" font="15">IT</text>
+<text top="360" left="925" width="0" height="16" font="15">H-</text>
+<text top="400" left="940" width="0" height="16" font="15">HO</text>
+<text top="385" left="940" width="0" height="16" font="15">LD</text>
+<text top="372" left="940" width="0" height="16" font="15">INGS</text>
+<text top="349" left="940" width="0" height="16" font="15"> </text>
+<text top="400" left="965" width="0" height="16" font="15">FIC</text>
+<text top="385" left="965" width="0" height="16" font="15">A </text>
+<text top="402" left="1004" width="0" height="14" font="17">OT</text>
+<text top="390" left="1004" width="0" height="14" font="17">HE</text>
+<text top="379" left="1004" width="0" height="14" font="17">R </text>
+<text top="371" left="1004" width="0" height="14" font="17">(M</text>
+<text top="358" left="1004" width="0" height="14" font="17">UST</text>
+<text top="342" left="1004" width="0" height="14" font="17"> </text>
+<text top="402" left="1017" width="0" height="14" font="17">SP</text>
+<text top="392" left="1017" width="0" height="14" font="17">ECI</text>
+<text top="378" left="1017" width="0" height="14" font="17">FY</text>
+<text top="370" left="1017" width="0" height="14" font="17">,  </text>
+<text top="363" left="1017" width="0" height="14" font="17">SEE</text>
+<text top="347" left="1017" width="0" height="14" font="17"> </text>
+<text top="402" left="1031" width="0" height="14" font="17">INS</text>
+<text top="388" left="1031" width="0" height="14" font="17">TR</text>
+<text top="377" left="1031" width="0" height="14" font="17">UC</text>
+<text top="365" left="1031" width="0" height="14" font="17">TI</text>
+<text top="357" left="1031" width="0" height="14" font="17">O</text>
+<text top="350" left="1031" width="0" height="14" font="17">NS)</text>
+<text top="335" left="1031" width="0" height="14" font="17"> </text>
+<text top="400" left="1052" width="0" height="16" font="15">TO</text>
+<text top="387" left="1052" width="0" height="16" font="15">TA</text>
+<text top="375" left="1052" width="0" height="16" font="15">L </text>
+<text top="400" left="1067" width="0" height="16" font="15">DE</text>
+<text top="387" left="1067" width="0" height="16" font="15">DU</text>
+<text top="372" left="1067" width="0" height="16" font="15">CT</text>
+<text top="360" left="1067" width="0" height="16" font="15">IO</text>
+<text top="349" left="1067" width="0" height="16" font="15">NS</text>
+<text top="334" left="1067" width="0" height="18" font="16"> </text>
+<text top="354" left="457" width="3" height="18" font="0"> </text>
+<text top="354" left="518" width="3" height="18" font="0"> </text>
+<text top="354" left="540" width="96" height="18" font="0">           </text>
+<text top="354" left="692" width="3" height="16" font="14"> </text>
+<text top="374" left="457" width="3" height="18" font="0"> </text>
+<text top="387" left="532" width="96" height="18" font="0">HOURS WORKED </text>
+<text top="404" left="552" width="57" height="18" font="0">EACH DAY </text>
+<text top="374" left="692" width="3" height="18" font="0"> </text>
+<text top="435" left="80" width="3" height="18" font="0"> </text>
+<text top="423" left="105" width="3" height="18" font="0"> </text>
+<text top="423" left="180" width="3" height="18" font="0"> </text>
+<text top="423" left="255" width="3" height="18" font="0"> </text>
+<text top="423" left="293" width="3" height="18" font="0"> </text>
+<text top="423" left="338" width="3" height="18" font="0"> </text>
+<text top="423" left="391" width="3" height="18" font="0"> </text>
+<text top="423" left="457" width="33" height="18" font="0">  ST </text>
+<text top="423" left="518" width="3" height="18" font="0"> </text>
+<text top="423" left="540" width="115" height="18" font="0">             </text>
+<text top="423" left="692" width="22" height="18" font="0">   </text>
+<text top="423" left="754" width="3" height="18" font="0"> </text>
+<text top="423" left="793" width="3" height="18" font="0"> </text>
+<text top="423" left="833" width="3" height="18" font="0"> </text>
+<text top="423" left="872" width="3" height="18" font="0"> </text>
+<text top="423" left="914" width="3" height="18" font="0"> </text>
+<text top="423" left="954" width="3" height="18" font="0"> </text>
+<text top="423" left="994" width="3" height="18" font="0"> </text>
+<text top="423" left="1040" width="3" height="18" font="0"> </text>
+<text top="423" left="1076" width="3" height="18" font="0"> </text>
+<text top="443" left="457" width="36" height="18" font="0">  OT </text>
+<text top="443" left="518" width="3" height="18" font="0"> </text>
+<text top="443" left="540" width="96" height="18" font="0">           </text>
+<text top="443" left="692" width="22" height="18" font="0">   </text>
+<text top="477" left="80" width="3" height="18" font="0"> </text>
+<text top="465" left="105" width="3" height="18" font="0"> </text>
+<text top="465" left="180" width="3" height="18" font="0"> </text>
+<text top="465" left="255" width="3" height="18" font="0"> </text>
+<text top="465" left="293" width="3" height="18" font="0"> </text>
+<text top="465" left="338" width="3" height="18" font="0"> </text>
+<text top="465" left="391" width="3" height="18" font="0"> </text>
+<text top="465" left="457" width="33" height="18" font="0">  ST </text>
+<text top="465" left="518" width="3" height="18" font="0"> </text>
+<text top="465" left="540" width="115" height="18" font="0">             </text>
+<text top="465" left="692" width="22" height="18" font="0">   </text>
+<text top="465" left="754" width="3" height="18" font="0"> </text>
+<text top="465" left="793" width="3" height="18" font="0"> </text>
+<text top="465" left="833" width="3" height="18" font="0"> </text>
+<text top="465" left="872" width="3" height="18" font="0"> </text>
+<text top="465" left="914" width="3" height="18" font="0"> </text>
+<text top="465" left="954" width="3" height="18" font="0"> </text>
+<text top="465" left="994" width="3" height="18" font="0"> </text>
+<text top="465" left="1040" width="3" height="18" font="0"> </text>
+<text top="465" left="1076" width="3" height="18" font="0"> </text>
+<text top="485" left="457" width="36" height="18" font="0">  OT </text>
+<text top="485" left="518" width="3" height="18" font="0"> </text>
+<text top="485" left="540" width="96" height="18" font="0">           </text>
+<text top="485" left="692" width="22" height="18" font="0">   </text>
+<text top="519" left="80" width="3" height="18" font="0"> </text>
+<text top="507" left="105" width="3" height="18" font="0"> </text>
+<text top="507" left="180" width="3" height="18" font="0"> </text>
+<text top="507" left="255" width="3" height="18" font="0"> </text>
+<text top="507" left="293" width="3" height="18" font="0"> </text>
+<text top="507" left="338" width="3" height="18" font="0"> </text>
+<text top="507" left="391" width="3" height="18" font="0"> </text>
+<text top="507" left="457" width="33" height="18" font="0">  ST </text>
+<text top="507" left="518" width="3" height="18" font="0"> </text>
+<text top="507" left="540" width="115" height="18" font="0">             </text>
+<text top="507" left="692" width="22" height="18" font="0">   </text>
+<text top="507" left="754" width="3" height="18" font="0"> </text>
+<text top="507" left="793" width="3" height="18" font="0"> </text>
+<text top="507" left="833" width="3" height="18" font="0"> </text>
+<text top="507" left="872" width="3" height="18" font="0"> </text>
+<text top="507" left="914" width="3" height="18" font="0"> </text>
+<text top="507" left="954" width="3" height="18" font="0"> </text>
+<text top="507" left="994" width="3" height="18" font="0"> </text>
+<text top="507" left="1040" width="3" height="18" font="0"> </text>
+<text top="507" left="1076" width="3" height="18" font="0"> </text>
+<text top="527" left="457" width="36" height="18" font="0">  OT </text>
+<text top="527" left="518" width="3" height="18" font="0"> </text>
+<text top="527" left="540" width="96" height="18" font="0">           </text>
+<text top="527" left="692" width="22" height="18" font="0">   </text>
+<text top="561" left="80" width="3" height="18" font="0"> </text>
+<text top="549" left="105" width="3" height="18" font="0"> </text>
+<text top="549" left="180" width="3" height="18" font="0"> </text>
+<text top="549" left="255" width="3" height="18" font="0"> </text>
+<text top="549" left="293" width="3" height="18" font="0"> </text>
+<text top="549" left="338" width="3" height="18" font="0"> </text>
+<text top="549" left="391" width="3" height="18" font="0"> </text>
+<text top="549" left="457" width="33" height="18" font="0">  ST </text>
+<text top="549" left="518" width="3" height="18" font="0"> </text>
+<text top="549" left="540" width="115" height="18" font="0">             </text>
+<text top="549" left="692" width="22" height="18" font="0">   </text>
+<text top="549" left="754" width="3" height="18" font="0"> </text>
+<text top="549" left="793" width="3" height="18" font="0"> </text>
+<text top="549" left="833" width="3" height="18" font="0"> </text>
+<text top="549" left="872" width="3" height="18" font="0"> </text>
+<text top="549" left="914" width="3" height="18" font="0"> </text>
+<text top="549" left="954" width="3" height="18" font="0"> </text>
+<text top="549" left="994" width="3" height="18" font="0"> </text>
+<text top="549" left="1040" width="3" height="18" font="0"> </text>
+<text top="549" left="1076" width="3" height="18" font="0"> </text>
+<text top="570" left="457" width="36" height="18" font="0">  OT </text>
+<text top="570" left="518" width="3" height="18" font="0"> </text>
+<text top="570" left="540" width="96" height="18" font="0">           </text>
+<text top="570" left="692" width="22" height="18" font="0">   </text>
+<text top="605" left="80" width="3" height="18" font="0"> </text>
+<text top="592" left="105" width="3" height="18" font="0"> </text>
+<text top="592" left="180" width="3" height="18" font="0"> </text>
+<text top="592" left="255" width="3" height="18" font="0"> </text>
+<text top="592" left="293" width="3" height="18" font="0"> </text>
+<text top="592" left="338" width="3" height="18" font="0"> </text>
+<text top="592" left="391" width="3" height="18" font="0"> </text>
+<text top="592" left="457" width="33" height="18" font="0">  ST </text>
+<text top="592" left="518" width="3" height="18" font="0"> </text>
+<text top="592" left="540" width="115" height="18" font="0">             </text>
+<text top="592" left="692" width="22" height="18" font="0">   </text>
+<text top="592" left="754" width="3" height="18" font="0"> </text>
+<text top="592" left="793" width="3" height="18" font="0"> </text>
+<text top="592" left="833" width="3" height="18" font="0"> </text>
+<text top="592" left="872" width="3" height="18" font="0"> </text>
+<text top="592" left="914" width="3" height="18" font="0"> </text>
+<text top="592" left="954" width="3" height="18" font="0"> </text>
+<text top="592" left="994" width="3" height="18" font="0"> </text>
+<text top="592" left="1040" width="3" height="18" font="0"> </text>
+<text top="592" left="1076" width="3" height="18" font="0"> </text>
+<text top="613" left="457" width="36" height="18" font="0">  OT </text>
+<text top="613" left="518" width="3" height="18" font="0"> </text>
+<text top="613" left="540" width="96" height="18" font="0">           </text>
+<text top="613" left="692" width="22" height="18" font="0">   </text>
+<text top="648" left="80" width="3" height="18" font="0"> </text>
+<text top="636" left="105" width="3" height="18" font="0"> </text>
+<text top="636" left="180" width="3" height="18" font="0"> </text>
+<text top="636" left="255" width="3" height="18" font="0"> </text>
+<text top="636" left="293" width="3" height="18" font="0"> </text>
+<text top="636" left="338" width="3" height="18" font="0"> </text>
+<text top="636" left="391" width="3" height="18" font="0"> </text>
+<text top="636" left="457" width="33" height="18" font="0">  ST </text>
+<text top="636" left="518" width="3" height="18" font="0"> </text>
+<text top="636" left="540" width="115" height="18" font="0">             </text>
+<text top="636" left="692" width="22" height="18" font="0">   </text>
+<text top="636" left="754" width="3" height="18" font="0"> </text>
+<text top="636" left="793" width="3" height="18" font="0"> </text>
+<text top="636" left="833" width="3" height="18" font="0"> </text>
+<text top="636" left="872" width="3" height="18" font="0"> </text>
+<text top="636" left="914" width="3" height="18" font="0"> </text>
+<text top="636" left="954" width="3" height="18" font="0"> </text>
+<text top="636" left="994" width="3" height="18" font="0"> </text>
+<text top="636" left="1040" width="3" height="18" font="0"> </text>
+<text top="636" left="1076" width="3" height="18" font="0"> </text>
+<text top="657" left="457" width="36" height="18" font="0">  OT </text>
+<text top="657" left="518" width="3" height="18" font="0"> </text>
+<text top="657" left="540" width="96" height="18" font="0">           </text>
+<text top="657" left="692" width="22" height="18" font="0">   </text>
+<text top="690" left="80" width="3" height="18" font="0"> </text>
+<text top="678" left="105" width="3" height="18" font="0"> </text>
+<text top="678" left="180" width="3" height="18" font="0"> </text>
+<text top="678" left="255" width="3" height="18" font="0"> </text>
+<text top="678" left="293" width="3" height="18" font="0"> </text>
+<text top="678" left="338" width="3" height="18" font="0"> </text>
+<text top="678" left="391" width="3" height="18" font="0"> </text>
+<text top="678" left="457" width="33" height="18" font="0">  ST </text>
+<text top="678" left="518" width="3" height="18" font="0"> </text>
+<text top="678" left="540" width="115" height="18" font="0">             </text>
+<text top="678" left="692" width="22" height="18" font="0">   </text>
+<text top="678" left="754" width="3" height="18" font="0"> </text>
+<text top="678" left="793" width="3" height="18" font="0"> </text>
+<text top="678" left="833" width="3" height="18" font="0"> </text>
+<text top="678" left="872" width="3" height="18" font="0"> </text>
+<text top="678" left="914" width="3" height="18" font="0"> </text>
+<text top="678" left="954" width="3" height="18" font="0"> </text>
+<text top="678" left="994" width="3" height="18" font="0"> </text>
+<text top="678" left="1040" width="3" height="18" font="0"> </text>
+<text top="678" left="1076" width="3" height="18" font="0"> </text>
+<text top="699" left="457" width="36" height="18" font="0">  OT </text>
+<text top="699" left="518" width="3" height="18" font="0"> </text>
+<text top="699" left="540" width="96" height="18" font="0">           </text>
+<text top="699" left="692" width="22" height="18" font="0">   </text>
+<text top="732" left="80" width="3" height="18" font="0"> </text>
+<text top="719" left="105" width="3" height="18" font="0"> </text>
+<text top="719" left="180" width="3" height="18" font="0"> </text>
+<text top="719" left="255" width="3" height="18" font="0"> </text>
+<text top="719" left="293" width="3" height="18" font="0"> </text>
+<text top="719" left="338" width="3" height="18" font="0"> </text>
+<text top="719" left="391" width="3" height="18" font="0"> </text>
+<text top="719" left="457" width="33" height="18" font="0">  ST </text>
+<text top="719" left="518" width="3" height="18" font="0"> </text>
+<text top="719" left="540" width="115" height="18" font="0">             </text>
+<text top="719" left="692" width="22" height="18" font="0">   </text>
+<text top="719" left="754" width="3" height="18" font="0"> </text>
+<text top="719" left="793" width="3" height="18" font="0"> </text>
+<text top="719" left="833" width="3" height="18" font="0"> </text>
+<text top="719" left="872" width="3" height="18" font="0"> </text>
+<text top="719" left="914" width="3" height="18" font="0"> </text>
+<text top="719" left="954" width="3" height="18" font="0"> </text>
+<text top="719" left="994" width="3" height="18" font="0"> </text>
+<text top="719" left="1040" width="3" height="18" font="0"> </text>
+<text top="719" left="1076" width="3" height="18" font="0"> </text>
+<text top="740" left="457" width="36" height="18" font="0">  OT </text>
+<text top="740" left="518" width="3" height="18" font="0"> </text>
+<text top="740" left="540" width="96" height="18" font="0">           </text>
+<text top="740" left="692" width="22" height="18" font="0">   </text>
+<text top="769" left="60" width="99" height="14" font="18">While use of Form WH-</text>
+<text top="769" left="160" width="395" height="14" font="23">347 itself is optional, covered contractors and subcontractors performing work on Federal or </text>
+<text top="769" left="555" width="39" height="14" font="18">federally </text>
+<text top="769" left="594" width="533" height="14" font="23">assisted construction contracts are required by the DBRA regulations and the contract clauses to submit payroll information o</text>
+<text top="769" left="1127" width="8" height="14" font="18">n </text>
+<text top="779" left="60" width="1062" height="14" font="23">a weekly basis. The Copeland Act (40 U.S.C. § 3145) requires contractors and subcontractors performing work on Federal or federally ﬁnanced construction contracts to, on a weekly basis, “furnish a statement on the wages paid each employee during </text>
+<text top="789" left="60" width="1068" height="14" font="23">the prior week.” U.S. Department of Labor (DOL) Regulations at 29 C.F.R. § 5.5(a)(3)(ii) require contractors and subcontractors to submit weekly certiﬁed payrolls to the appropriate Federal agency if the agency is a party to the contract (or, if the agency </text>
+<text top="798" left="60" width="373" height="14" font="23">is not such a party, to the applicant, sponsor, owner, or other entity, as the case may be,</text>
+<text top="798" left="433" width="2" height="14" font="18"> </text>
+<text top="798" left="436" width="536" height="14" font="23">that maintains such records, for transmission to the Federal agency). Each certiﬁed payroll must be accompanied by a signed “</text>
+<text top="798" left="971" width="63" height="14" font="18">Statement of C</text>
+<text top="798" left="1035" width="98" height="14" font="23">ompliance” (e.g., page </text>
+<text top="808" left="60" width="54" height="14" font="18">2 of the WH-</text>
+<text top="808" left="115" width="830" height="14" font="23">347 or another document with identical wording) indicating that the certiﬁed payrolls are accurate and complete, and that each laborer or mechanic has been paid not less than the required Davis</text>
+<text top="808" left="945" width="3" height="14" font="18">-</text>
+<text top="808" left="949" width="171" height="14" font="23">Bacon prevailing wage rate(s) (including </text>
+<text top="817" left="61" width="534" height="14" font="23">any fringe beneﬁts) for the work performed. DOL and contracting agencies receiving this information review the information t</text>
+<text top="817" left="594" width="94" height="14" font="18">o determine whether </text>
+<text top="817" left="687" width="277" height="14" font="23">workers have received legally required wages and fringe beneﬁts.</text>
+<text top="817" left="965" width="2" height="14" font="18"> </text>
+<text top="833" left="535" width="124" height="17" font="22"><b>Public Burden Statement</b></text>
+<text top="833" left="659" width="3" height="17" font="21"><b> </b></text>
+<text top="850" left="60" width="1053" height="14" font="23">We estimate that it will take an average of 55 minutes to complete this collection, including time for reviewing instructions, searching existing data sources, gathering and maintaining the data needed, and completing and reviewing the collection of </text>
+<text top="860" left="60" width="28" height="14" font="18">inform</text>
+<text top="860" left="89" width="73" height="14" font="23">ation. If you have</text>
+<text top="860" left="162" width="2" height="14" font="18"> </text>
+<text top="860" left="165" width="955" height="14" font="23">any comments regarding these estimates or any other aspect of this collection, including suggestions for reducing this burden, send them to the Administrator, Wage and Hour Division, U.S. Department of Labor, Room S3502, </text>
+<text top="869" left="60" width="71" height="14" font="23">200 Constitution</text>
+<text top="869" left="131" width="168" height="14" font="18"> Avenue, N.W. Washington, D.C. 20210  </text>
+<text top="869" left="324" width="2" height="14" font="18"> </text>
+<text top="869" left="378" width="2" height="14" font="18"> </text>
+<text top="869" left="432" width="2" height="14" font="18"> </text>
+<text top="869" left="486" width="2" height="14" font="18"> </text>
+<text top="869" left="540" width="5" height="14" font="18">  </text>
+<text top="869" left="594" width="28" height="14" font="18">(over) </text>
+</page>
+</pdf2xml>

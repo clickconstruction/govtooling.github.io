@@ -1,25 +1,38 @@
 {
-  "name": "govtooling-wh347",
+  "name": "govtooling2",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "description": "Government tooling - WH-347 certified payroll form generator and other utilities. Hosted on GitHub Pages.",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -p tsconfig.app.json --noEmit && vite build",
-    "preview": "vite preview"
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "inspect:pdf": "node scripts/inspectFields.mjs"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@pdf-lib/fontkit": "^1.1.1",
+    "date-fns": "^4.1.0",
+    "jszip": "^3.10.1",
+    "nanoid": "^5.1.11",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.7.284",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.4",
-    "typescript": "~5.6.3",
-    "vite": "^5.4.11"
-  },
-  "engines": {
-    "node": ">=20.0.0"
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.2.0",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.0.0",
+    "postcss": "^8.5.14",
+    "prettier": "^3.8.3",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3",
+    "vite": "^7.3.3"
   }
 }
