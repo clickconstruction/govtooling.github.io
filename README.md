@@ -1,4 +1,4 @@
-# govtooling2.github.io
+# GovTooling
 
 Free, browser-based U.S. government form tooling. Static site, hosted on GitHub Pages.
 
@@ -77,7 +77,7 @@ node scripts/buildSamplePdf.mjs
 
 Push to `main` and GitHub Actions ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)) builds and publishes `dist/` to GitHub Pages.
 
-The repository name is `govtooling2.github.io`, which makes this a user/organization site served from `https://govtooling2.github.io/`. Vite is configured with `base: '/'`. To host this as a project page elsewhere, change `base` in [vite.config.ts](vite.config.ts) to `/<repo-name>/`.
+The repository is `clickconstruction/govtooling.github.io`; the site is served from the root of its custom domain, `https://govtooling.com/`, so Vite is configured with `base: '/'`. To host this as a project page elsewhere, change `base` in [vite.config.ts](vite.config.ts) to `/<repo-name>/`.
 
 The first time you push, enable Pages in repo Settings → Pages, set source to **GitHub Actions**.
 
